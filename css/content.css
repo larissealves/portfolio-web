@@ -1,0 +1,29 @@
+.profile {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.profile :nth-child(2) {
+    flex: 2;;
+}
+
+.profile-img {
+    background-color: var(--c-blue);
+    border: 2px solid var(--c-border);
+    width: 15%;
+    border-radius: 5%;
+}
+
+.profile-img img {
+    border-radius: 80%;
+    width: 150px;
+}
+
+.profile-name {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--c-border);
+    font-weight: bold;
+}
