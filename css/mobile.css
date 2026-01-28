@@ -4,8 +4,12 @@
         --cell: 20px;
     }
 
+    .cross {
+        display: none;
+    }
+
     .main-content {
-        height: 80%;
+        height: 90vh;
     }
 
     .screen {
@@ -32,7 +36,6 @@
     .scene {
         grid: repeat(3, var(--cell)) / repeat(3, var(--cell));
         width: calc(var(--cell) * 5);
-        height: calc(var(--cell) * 11);
         gap: 5px;
     }
 
