@@ -194,6 +194,7 @@ a, button, [onclick] {
     radial-gradient(rgba(217, 217, 217, .12), transparent 40%) center/200% 200%,
     var(--cross);
   filter: contrast(1.05) brightness(1.02);
+  display: none !important;
 }
 
 /* Círculos */
