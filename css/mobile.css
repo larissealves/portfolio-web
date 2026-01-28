@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+
+    :root {
+        --cell: 20px;
+    }
+
+    .main-content {
+        height: 90vh;
+    }
+
+    .screen {
+        gap: 8px;
+        margin-bottom: 8px;
+        height: 80%;
+        flex-direction: column;
+    }
+
+    .screen-menu {
+        max-width: max-content;
+    }
+
+    .screen-view {
+        width: auto;
+        flex: 2;
+    }
+
+    .screen-menu >.item {
+        flex: 25%;
+        margin: 4px;
+    }
+
+    .scene {
+        grid: repeat(3, var(--cell)) / repeat(3, var(--cell));
+        width: calc(var(--cell) * 5);
+        height: calc(var(--cell) * 11);
+        gap: 5px;
+    }
+
+    .fake-buttons .item {
+        width: 10px;
+        height: 6px;
+    }
+
+    .dot,
+    .share-buttons .dot {
+        width: 25px;
+        height: 25px;
+    }
+
+    .arrow-buttons .scene .dot.top,
+    .arrow-buttons .scene .dot.bottom {
+        cursor: none;
+        background-color: var(--c-gray);
+        border: 1px solid var(--c-gray);
+    }
+
+}

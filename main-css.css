@@ -1,4 +1,6 @@
 @import "./css/content.css";
 @import "./css//style.css";
 
-@import "./css/tooltip.css"
+@import "./css/tooltip.css";
+
+@import "./css/mobile.css";
