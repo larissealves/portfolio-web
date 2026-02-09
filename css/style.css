@@ -108,14 +108,15 @@ a, button, [onclick] {
   box-shadow: var(--shadow-inset);
   overflow-y: auto;
   font-family: monospace;
+  text-align: justify;
   color: #fff;
   font-size: 16px;
 }
 
 .screen-view-title {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 18px;
-  margin: 0 0 16px 0;
+  margin: 0 0 8px 0;
 }
 
 .screen-menu {
