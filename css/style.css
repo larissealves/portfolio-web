@@ -82,7 +82,7 @@ a, button, [onclick] {
   border-radius: var(--radius-xl);
   padding: 10px 20px;
   max-width: 70%;
-  height: 80vh;
+  max-height: fit-content;
 }
 
 .screen {
@@ -121,7 +121,6 @@ a, button, [onclick] {
 
 .screen-menu {
   display: flex;
-  align-items: center; 
   flex-wrap: wrap;
   max-width: 20%;
   overflow-y: auto;

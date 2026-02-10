@@ -41,6 +41,7 @@
         grid: repeat(3, var(--cell)) / repeat(3, var(--cell));
         width: calc(var(--cell) * 5);
         gap: 5px;
+        margin-top: 0%;
     }
 
     .profile {
